@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 public class ConvertController {
     @Controller
-    public class ConverterController {
+    public static class ConverterController {
         @GetMapping("/converter")
         public String convert () {
             return "/converter";
