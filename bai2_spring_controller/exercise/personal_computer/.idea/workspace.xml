@@ -5,139 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44a13862-bcc2-4abe-a0c7-c0bdf7f17c2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/src/main/java/controller/simple_dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/src/main/webapp/WEB-INF/views/translate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ComputerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/calculator.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sandwich_condiment/src/main/java/controller/SandwichController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sandwich_condiment/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sandwich_condiment/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sandwich_condiment/src/main/webapp/WEB-INF/views/save.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sandwich_condiment/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/.idea/modules/email_checker_using_gradle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/src/main/java/controller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/src/main/webapp/WEB-INF/view/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/src/main/java/com/codegym/controller/TimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/src/main/webapp/WEB-INF/views/world-clock.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/src/main/java/controller/TimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/spring-timezone/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/save.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build/classes/java/main/com/codegym/controller/ConvertController$ConverterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build/classes/java/main/com/codegym/controller/ConvertController$ConverterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build/classes/java/main/com/codegym/controller/ConvertController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build/classes/java/main/com/codegym/controller/ConvertController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build/libs/convert_money-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build/libs/convert_money-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/src/main/java/com/codegym/controller/ConvertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/src/main/java/com/codegym/controller/ConvertController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/src/main/webapp/WEB-INF/views/convert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/convert_money/src/main/webapp/WEB-INF/views/converter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/build/classes/java/main/com/codegym/controller/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/build/classes/java/main/com/codegym/controller/GreetingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/build/libs/spring_greeting-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/build/libs/spring_greeting-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/src/main/java/com/codegym/controller/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/src/main/java/com/codegym/controller/GreetingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/spring_greeting/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/email_checker_using_maven/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/7.1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/spring-timezone-maven/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/exercise/simple_dictionary/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quat_spring_mvc/practice/test/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/email_checker_using_gradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/src/main/java/com/codegym/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/src/main/java/com/codegym/model/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/java/com/codegym/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/java/com/codegym/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-user-model/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/java/com/codegym/confinguration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/java/com/codegym/confinguration/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/java/com/codegym/model/ProductForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/java/com/codegym/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/resources/upload_file.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/upload_file/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/java/com/codegym/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/exercise/configuring_email/src/main/webapp/WEB-INF/views/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_data_binding_and_form/practice/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +124,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sandwich_condiment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -303,6 +232,11 @@
       <workItem from="1642069661462" duration="449000" />
       <workItem from="1642098458930" duration="75000" />
       <workItem from="1642098551272" duration="354000" />
+      <workItem from="1642228605491" duration="736000" />
+      <workItem from="1642229366630" duration="464000" />
+      <workItem from="1642239003222" duration="32000" />
+      <workItem from="1642239050469" duration="36000" />
+      <workItem from="1642254454223" duration="167000" />
     </task>
     <servers />
   </component>
