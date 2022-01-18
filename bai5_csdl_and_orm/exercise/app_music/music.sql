@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS music;
+CREATE DATABASE music;
+USE music;
+
+CREATE TABLE music(
+id INT PRIMARY KEY AUTO_INCREMENT,
+namer VARCHAR(45),
+singer VARCHAR(45),
+kind_of_music VARCHAR(45),
+link VARCHAR(45)
+)

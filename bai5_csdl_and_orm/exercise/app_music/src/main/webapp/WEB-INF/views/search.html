@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+</head>
+<body>
+<h3>Search music</h3>
+<p>
+    <a th:href="@{/music}">
+        Back to list music
+    </a>
+</p>
+<div id="form">
+    <form th:action="@{/music/searchByName}" method="post" novalidate="novalidate">
+        <div>
+            <label>Please enter name of music: </label><br>
+            <input type="text" name="search"> <br>
+            <input type="submit" value="Search">
+        </div>
+    </form>
+</div>
+<p th:if="${message}">
+    <span th:text="${message}"></span>
+</p>
+<table id="products" th:if="${musics}">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Artist</th>
+        <th>TypeOfMusic</th>
+        <th>FilePath</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="music : ${musics}">
+        <td th:text="${music.name}"></td>
+        <td th:text="${music.artist}"></td>
+        <td th:text="${music.typeOfMusic}"></td>
+        <td th:text="${music.filePath}"></td>
+    </tr>
+    </tbody>
+</table>
+<footer th:replace="/layout :: footer"></footer>
+</body>
+</html>

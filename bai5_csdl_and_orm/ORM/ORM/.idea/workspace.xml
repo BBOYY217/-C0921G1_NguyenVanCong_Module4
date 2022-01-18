@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abd0c68d-e3e4-4bd1-aa1b-062dd4534df1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/java/com/codegym/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/java/com/codegym/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaff/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/app_music/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/app_music/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/app_music/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/app_music/src/main/java/com/codegym/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/app_music/src/main/java/com/codegym/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/app_music/src/main/java/com/codegym/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/app_music/src/main/java/com/codegym/service/MusicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/app_music/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/modules/customer_management.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/repository/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/service/HibernateCustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/webapp/WEB-INF/templates/customer/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/webapp/WEB-INF/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/app_music/src/main/resources/upload_file.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/7.1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.gradle/vcs-1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/resources/upload_file.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/classes/java/main/com/codegym/configuration/AppConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/classes/java/main/com/codegym/configuration/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/classes/java/main/com/codegym/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/classes/java/main/com/codegym/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/classes/java/main/com/codegym/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/classes/java/main/com/codegym/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/libs/customer_management_thymeleaf-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/java/com/codegym/configuration/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/java/com/codegym/configuration/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/exercise/product_management_thymeleaf/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/java/com/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/customer_management/src/main/java/cg/wbd/grandemonstration/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/java/com/codegym/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/java/com/codegym/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_view_and_thymeleaf/practice/customer_management_thymeleaf/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="23rxxqq1eXAQZenIo9du60ggpLL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abd0c68d-e3e4-4bd1-aa1b-062dd4534df1" name="Changes" comment="" />
+      <created>1642506257103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642506257103</updated>
+      <workItem from="1642506258570" duration="592000" />
+      <workItem from="1642524946766" duration="622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
