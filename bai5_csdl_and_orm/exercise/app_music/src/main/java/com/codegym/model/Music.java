@@ -16,13 +16,6 @@ public class Music {
     public Music() {
     }
 
-    public Music(String name, String artist, String typeOfMusic, String filePath) {
-        this.name = name;
-        this.artist = artist;
-        this.typeOfMusic = typeOfMusic;
-        this.filePath = filePath;
-    }
-
     public Music(int id, String name, String artist, String typeOfMusic, String filePath) {
         this.id = id;
         this.name = name;

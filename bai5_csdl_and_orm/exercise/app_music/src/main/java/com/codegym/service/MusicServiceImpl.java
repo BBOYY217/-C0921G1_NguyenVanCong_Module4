@@ -1,16 +1,17 @@
 package com.codegym.service;
 
 import com.codegym.model.Music;
-import com.codegym.repository.MusicRepositoryImpl;
+import com.codegym.repository.MusicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class MusicServiceImpl implements MusicService {
 
     @Autowired
-    private MusicRepositoryImpl musicRepository;
-
+    private MusicRepository musicRepository;
 
     @Override
     public List<Music> findAll() {
@@ -18,8 +19,8 @@ public class MusicServiceImpl implements MusicService {
     }
 
     @Override
-    public void save(Music musicObj) {
-        musicRepository.save(musicObj);
+    public Music save(Music musicObj) {
+       return musicRepository.save(musicObj);
     }
 
     @Override

@@ -6,13 +6,13 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-
-
+import org.springframework.stereotype.Service;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class MusicRepositoryImpl implements MusicRepository {
     private static SessionFactory sessionFactory;
     private static EntityManager entityManager;
@@ -36,13 +36,17 @@ public class MusicRepositoryImpl implements MusicRepository {
     }
 
     @Override
-    public void save(Music musicObj) {
+    public Music save(Music musicObj) {
         Session session = null;
         Transaction transaction = null;
         try {
             session = sessionFactory.openSession();
             transaction = session.beginTransaction();
-            session.saveOrUpdate(musicObj);
+            Music musicOrgin = findById(musicObj.getId());
+            musicOrgin.setName(musicObj.getName());
+            musicOrgin.setArtist(musicObj.getArtist());
+            musicOrgin.setTypeOfMusic(musicObj.getTypeOfMusic());
+            musicOrgin.setFilePath(musicObj.getFilePath());
             transaction.commit();
         } catch (Exception e) {
             e.printStackTrace();
@@ -54,6 +58,7 @@ public class MusicRepositoryImpl implements MusicRepository {
                 session.close();
             }
         }
+        return musicObj;
     }
 
     @Override
