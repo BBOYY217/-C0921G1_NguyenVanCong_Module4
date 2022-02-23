@@ -1,12 +1,16 @@
 package com.codegym.casestudy.model;
 
+import com.codegym.casestudy.model.customer.Customer;
+import com.codegym.casestudy.model.employee.Employee;
+import com.codegym.casestudy.model.service.Service;
+
 import javax.persistence.*;
 
 @Entity
 @Table
 public class Contract {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int contractId;
     private String startDate;
     private String endDate;
@@ -28,7 +32,7 @@ public class Contract {
     public Contract() {
     }
 
-    public Contract(int contractId, String startDate, String endDate, double contractDeposit, double contractTotalMoney, Employee employee, Customer customer, com.codegym.casestudy.model.Service service) {
+    public Contract(int contractId, String startDate, String endDate, double contractDeposit, double contractTotalMoney, Employee employee, Customer customer, com.codegym.casestudy.model.service.Service service) {
         this.contractId = contractId;
         this.startDate = startDate;
         this.endDate = endDate;
@@ -95,11 +99,11 @@ public class Contract {
         this.customer = customer;
     }
 
-    public com.codegym.casestudy.model.Service getService() {
+    public com.codegym.casestudy.model.service.Service getService() {
         return Service;
     }
 
-    public void setService(com.codegym.casestudy.model.Service service) {
+    public void setService(com.codegym.casestudy.model.service.Service service) {
         Service = service;
     }
 }

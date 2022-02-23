@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<h1>Edit employee</h1>
+<div class="container d-flex">
+    <form th:action="@{/employee/edit}" th:object="${employeeDto}" method="post" novalidate="novalidate">
+        <input type="hidden" th:field="*{employeeId}">
+        <div class="form-group row">
+            <label for="inputName" class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputName" th:field="*{employeeName}">
+                <small th:errors="*{employeeName}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputName" class="col-sm-3 col-form-label">BirthDay</label>
+            <div class="col-sm-6">
+                <input type="date" class="form-control" id="inputDate" th:field="*{employeeBirth}">
+                <small th:errors="*{employeeBirth}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputName" class="col-sm-3 col-form-label">Id card</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputIdCard" th:field="*{employeeIdCard}">
+                <small th:errors="*{employeeIdCard}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputSalary" class="col-sm-3 col-form-label">Salary</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputSalary" th:field="*{employeeSalary}">
+                <small th:errors="*{employeeSalary}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPhone" class="col-sm-3 col-form-label">Phone Number</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputPhone" th:field="*{employeePhone}">
+                <small th:errors="*{employeePhone}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail" class="col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputEmail" th:field="*{employeeEmail}">
+                <small th:errors="*{employeeEmail}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputAddress" class="col-sm-3 col-form-label">Address</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputAddress" th:field="*{employeeAddress}">
+                <small th:errors="*{employeeAddress}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputType" class="col-sm-3 col-form-label">Position</label>
+            <div class="col-sm-6">
+                <select id="inputType" th:field="*{positionId}">
+                    <option th:each="positions :${position}" th:value="${positions.positionId}"
+                            th:text="${positions.positionName}"></option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputType1" class="col-sm-3 col-form-label">Education Degree</label>
+            <div class="col-sm-6">
+                <select id="inputType1" th:field="*{educationDegreeId}">
+                    <option th:each="educations :${education}" th:value="${educations.educationDegreeId}"
+                            th:text="${educations.educationDegreeName}"></option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputType2" class="col-sm-3 col-form-label">Division</label>
+            <div class="col-sm-6">
+                <select id="inputType2" th:field="*{divisionId}">
+                    <option th:each="divisions : ${division}" th:value="${divisions.divisionId}"
+                            th:text="${divisions.divisionName}"></option>
+                </select>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary"> Edit Employee</button>
+            <a href="/employee" class="btn btn-secondary" data-bs-dismiss="modal">Back to list</a>
+        </div>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

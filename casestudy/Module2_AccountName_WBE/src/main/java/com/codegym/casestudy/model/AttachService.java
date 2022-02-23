@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name = "attachService")
 public class AttachService {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int attachServiceId;
     private double attachServiceCost;
     private int attachServiceUnit;

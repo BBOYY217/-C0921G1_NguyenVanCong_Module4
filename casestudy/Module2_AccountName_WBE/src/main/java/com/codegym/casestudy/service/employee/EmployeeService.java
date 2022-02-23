@@ -1,14 +1,19 @@
 package com.codegym.casestudy.service.employee;
 
-import com.codegym.casestudy.model.Employee;
+import com.codegym.casestudy.model.employee.Division;
+import com.codegym.casestudy.model.employee.EducationDegree;
+import com.codegym.casestudy.model.employee.Employee;
+import com.codegym.casestudy.model.employee.Position;
+import com.codegym.casestudy.repository.employee.IDivisionRepository;
+import com.codegym.casestudy.repository.employee.IEducationDegreeRepository;
 import com.codegym.casestudy.repository.employee.IEmployeeRepository;
+import com.codegym.casestudy.repository.employee.IPositionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class EmployeeService implements IEmployeeService {
@@ -16,28 +21,49 @@ public class EmployeeService implements IEmployeeService {
     @Autowired
     private IEmployeeRepository employeeRepository;
 
+    @Autowired
+    private IDivisionRepository divisionRepository;
+
+    @Autowired
+    private IEducationDegreeRepository educationDegreeRepository;
+
+    @Autowired
+    private IPositionRepository positionRepository;
+
     @Override
-    public Page<Employee> findAll(Pageable pageable) {
-        return  employeeRepository.findAll(pageable);
+    public Page<Employee> findAll(String keyword, Pageable pageable) {
+        return employeeRepository.findAllByKeyWord(keyword,pageable);
     }
 
     @Override
-    public Optional<Employee> findId(int id) {
-        return employeeRepository.findById(id);
+    public Employee findById(int id) {
+        return employeeRepository.findById(id).orElse(null);
     }
 
     @Override
-    public Employee save(Employee employee) {
-        return employeeRepository.save(employee);
+    public void save(Employee employee) {
+        employeeRepository.save(employee);
     }
 
     @Override
     public void remove(int id) {
-        employeeRepository.deleteById(id);
+        Employee employee = this.findById(id);
+        employee.setFlag(false);
+        save(employee);
     }
 
     @Override
-    public Page<Employee> searchEmployee(String employeeName, String employeeBirth, String employeeIdCard, String employeeEmail, String employeePhone, String employeeAddress, Pageable pageable) {
-        return employeeRepository.searchEmployee(employeeName,employeeBirth,employeeIdCard,employeeEmail,employeePhone,employeeAddress,pageable);
+    public List<Division> listDivision() {
+        return divisionRepository.findAll();
+    }
+
+    @Override
+    public List<Position> listPosition() {
+        return positionRepository.findAll();
+    }
+
+    @Override
+    public List<EducationDegree> listEducationDegree() {
+        return educationDegreeRepository.findAll();
     }
 }

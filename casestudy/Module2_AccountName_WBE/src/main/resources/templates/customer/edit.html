@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<h1>Create customer</h1>
+<div class="container d-flex">
+    <form th:action="@{/customer/edit}" th:object="${customerDto}" method="post" novalidate="novalidate">
+        <div class="form-group row">
+            <label for="inputId" class="col-sm-3 col-form-label">Id</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputId" th:field="*{customerId}" readonly>
+                <small th:errors="*{customerId}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputName" class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputName" th:field="*{customerName}">
+                <small th:errors="*{customerName}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputDate" class="col-sm-3 col-form-label">BirthDay</label>
+            <div class="col-sm-6">
+                <input type="date" class="form-control" id="inputDate" th:field="*{customerBirth}">
+                <small th:errors="*{customerBirth}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputGender" class="col-sm-3 col-form-label">Gender</label>
+            <div class="col-sm-6">
+                <select id="inputGender" th:field="*{customerGender}">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputSalary" class="col-sm-3 col-form-label">Id card</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputSalary" th:field="*{customerIdCard}">
+                <small th:errors="*{customerIdCard}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPhone" class="col-sm-3 col-form-label">Phone Number</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputPhone" th:field="*{customerPhone}">
+                <small th:errors="*{customerPhone}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail" class="col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputEmail" th:field="*{customerEmail}">
+                <small th:errors="*{customerEmail}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputAddress" class="col-sm-3 col-form-label">Address</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputAddress" th:field="*{customerAddress}">
+                <small th:errors="*{customerAddress}"></small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputType" class="col-sm-3 col-form-label">Type customer</label>
+            <div class="col-sm-6">
+                <select id="inputType" th:field="*{customerTypeId}">
+                    <option th:each="custype :${customerType}" th:value="${custype.customerTypeId}"
+                            th:text="${custype.customerTypeName}"></option>
+                </select>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary"> Create customer</button>
+            <a href="/customer" class="btn btn-secondary" data-bs-dismiss="modal">Back to list</a>
+        </div>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

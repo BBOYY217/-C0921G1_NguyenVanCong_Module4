@@ -1,10 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+<h1>Employee list</h1>
+<div>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a  href="/employee/create" name="keyword" class="btn btn-outline-primary">create new Employee</a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" name="keyword" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</div>
 
+<table class="table table-dark table-striped">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>BirthDay</th>
+        <th>IdCard</th>
+        <th>Salary</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Position</th>
+        <th>Education degree</th>
+        <th>Division</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="employee : ${employees}">
+        <td th:text="${employee.employeeId}"></td>
+        <td th:text="${employee.employeeName}"></td>
+        <td th:text="${employee.employeeBirth}"></td>
+        <td th:text="${employee.employeeIdCard}"></td>
+        <td th:text="${employee.employeeSalary}"></td>
+        <td th:text="${employee.employeePhone}"></td>
+        <td th:text="${employee.employeeEmail}"></td>
+        <td th:text="${employee.positionId.positionName}"></td>
+        <td th:text="${employee.educationDegreeId.educationDegreeName}"></td>
+        <td th:text="${employee.divisionId.divisionName}"></td>
+        <td><a th:href="@{/employee/edit(id = ${employee.employeeId})}" class="btn btn-primary">Edit</a></td>
+        <td>
+            <button type="button" class="btn btn-danger buttonDelete" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" th:data1="${employee.employeeId}" th:data2="${employee.employeeName}"
+                    onclick="del(this.getAttribute('data1'),this.getAttribute('data2'))">
+                Delete
+            </button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<!-- Button trigger modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="/employee/delete" method="post">
+                    <input id="employeeId" name="id" readonly>
+                    <p id="employeeName"></p>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" > Delete</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div>
+    <a class="btn btn-info" th:href="@{/employee(page=${employees.number - 1},keyWord=${keyword})}"
+       th:if="${employees.hasPrevious()}">Previous</a>
+    <span th:text="${employees.number+1}"></span>/<span th:text="${employees.totalPages}"></span>
+    <a class="btn btn-info" th:href="@{/employee(page=${employees.number + 1},keyWord=${keyword})}"
+       th:if="${employees.hasNext()}">Next</a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script>
+    function del(id, name) {
+        document.getElementById("employeeId").value = id;
+        document.getElementById("employeeName").innerText = name;
+    }
+</script>
 </body>
 </html>

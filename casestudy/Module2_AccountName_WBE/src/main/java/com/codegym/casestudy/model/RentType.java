@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name = "rentType")
 public class RentType {
     @Id
-    @GeneratedValue (strategy = GenerationType.AUTO)
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private int rentTypeId;
     private String rentTypeName;
     private Double rentTypeCost;
